@@ -1,0 +1,35 @@
+body { font-family: arial, sans-serif; }
+.content {
+ 	margin: 0 auto;
+ 	width: 80%;
+ }
+.disabled,
+.disabled:hover {
+ 	background-color: #777;
+ 	border: #333;
+ 	color: #333;
+ 	cursor: wait;
+ 	font-style: italic;
+ }
+.play,
+.stop {
+ 	background-color: #0000ee;
+ 	border: 2px solid #000033;
+ 	border-radius: 0.25rem;
+ 	color: #fff;
+ 	font-weight: bold;
+ 	margin: 0.5rem;
+ 	padding: 0.45rem;
+ 	text-decoration: none;
+ }
+.play:hover,
+.stop:hover {
+ 	background-color: #000033;
+ 	border: 2px solid #00cccc;
+ 	color: #00cccc;
+ }
+.shell {
+ 	margin: 0 auto;
+ 	width: 50%;
+ }
+.textarea { width: 100%; }
